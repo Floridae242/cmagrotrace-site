@@ -1,0 +1,58 @@
+{
+  "home": {
+    "title": "Longan you can trace—QR to timeline in seconds.",
+    "subtitle": "CM‑AgroTrace turns every lot into a transparent story—origin, handling, and quality—so farmers sell fairly and buyers purchase with confidence.",
+    "requestAccess": "Request Pilot Access",
+    "viewDemo": "View Live Demo",
+    "viewSample": "View Sample Public Scan Page →",
+    "scanQR": "Scan this QR (demo)",
+    "sampleTimeline": "Sample Lot Timeline"
+  },
+  "nav": {
+    "home": "Home",
+    "why": "Why",
+    "features": "Features",
+    "tech": "Tech",
+    "value": "Value",
+    "faq": "FAQ",
+    "getStarted": "Get Started"
+  },
+  "features": {
+    "how": {
+      "title": "How it works",
+      "subtitle": "Create Lot → Add Events → Scan Public Page",
+      "createLot": {
+        "title": "Create Lot",
+        "desc": "Make a lot in minutes. Print or share the QR."
+      },
+      "addEvents": {
+        "title": "Add Events",
+        "desc": "Transport, test, arrival, sale—your end-to-end timeline."
+      },
+      "scan": {
+        "title": "Scan",
+        "desc": "Public page opens fast on mobile. No login needed."
+      }
+    },
+    "why": {
+      "title": "Why CM‑AgroTrace",
+      "subtitle": "Trust, Traceability, Partners, Sustainability",
+      "trust": {
+        "title": "Food Security & Trust",
+        "desc": "Build confidence in quality and safety with verified lot info."
+      },
+      "traceability": {
+        "title": "Smart Transport & Traceability",
+        "desc": "See the journey end-to-end with time‑stamped events."
+      },
+      "partners": {
+        "title": "Trusted Partners & Happy Buyers",
+        "desc": "Direct connections and fair pricing with clarity."
+      },
+      "sustainability": {
+        "title": "Healthy Consumers, Sustainable Future",
+        "desc": "Transparency supports better choices for everyone."
+      }
+    }
+  }
+}
