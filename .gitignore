@@ -1,0 +1,14 @@
+# Firebase
+.firebase
+.firebase/*
+
+# Next.js
+.next
+out
+
+# Node
+node_modules
+npm-debug.log
+
+# OS
+.DS_Store
