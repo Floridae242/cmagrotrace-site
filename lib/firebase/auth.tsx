@@ -6,7 +6,7 @@ import {
   signOut as firebaseSignOut,
   createUserWithEmailAndPassword,
 } from 'firebase/auth';
-import { auth } from './firebase';
+import { auth } from '../../src/lib/firebase';
 
 interface AuthContextType {
   user: User | null;
@@ -38,7 +38,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const signIn = async (email: string, password: string) => {
-    await signInWithEmailAndPassword(auth, email, password);
+    try {
+      await signInWithEmailAndPassword(auth, email, password);
+    } catch (error) {
+      console.error('Error signing in:', error);
+    }
   };
 
   const signUp = async (email: string, password: string) => {
